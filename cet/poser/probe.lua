@@ -25,6 +25,15 @@ Probe.types = {
   "AnimFeature_LookAt",
   "AnimFeature_PhotomodeFacial",
   "PhotoModePauseAnim",
+  -- Camera and lighting: script-visible types found in the game scripts.
+  "PhotoModeSystem",
+  "gameuiPhotoModeMenuController",
+  "PhotomodeSetActiveLightEvent",
+  "CameraComponent",
+  "FreeCamera",
+  "gameLightComponent",
+  "entLightComponent",
+  "ScriptLightSettings",
 }
 
 local function dumpType(name)
