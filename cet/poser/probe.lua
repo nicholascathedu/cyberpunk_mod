@@ -14,6 +14,17 @@ Probe.types = {
   "gamePuppet",
   "PlayerPuppet",
   "gamePhotoModeSystem",
+  -- Found in the game's compiled scripts: script-visible IK and look-at hooks.
+  "IKTargetAddEvent",
+  "IKTargetRemoveEvent",
+  "IKTargetRequest",
+  "LookAtAddEvent",
+  "LookAtPartRequest",
+  "AnimFeature_SimpleIkSystem",
+  "AnimFeature_WorkspotIK",
+  "AnimFeature_LookAt",
+  "AnimFeature_PhotomodeFacial",
+  "PhotoModePauseAnim",
 }
 
 local function dumpType(name)
